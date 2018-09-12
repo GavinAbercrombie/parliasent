@@ -67,8 +67,8 @@ SVM_speech_acc, SVM_speech_pres, SVM_speech_rec, SVM_speech_f1 = 0, 0, 0, 0
 MLP_speech_acc, MLP_speech_pres, MLP_speech_rec, MLP_speech_f1 = 0, 0, 0, 0
 
 # load debate data:
-data = open('../Hansard/debate_csvs/HanDeSeT.csv')
-debates = csv.reader(data)
+data = open('HanDeSeT.csv')
+debates = list(csv.reader(data))[1:]
 
 # empty lists for features:
 X_motions = []
