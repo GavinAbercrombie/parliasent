@@ -35,5 +35,5 @@ To run sentiment analysis:
   
 E.g., to run the two-step model with automatic motion classification, manually applied sentiment labels, and textual features, speaker party affiliation, and debate ID, enter: 
   
-  python parliasent.py 2a manual 3
+  `python parliasent.py 2a manual 3`
   
