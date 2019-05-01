@@ -31,7 +31,7 @@ To run sentiment analysis:
 
 1) Ensure that parliasent.py and HanDeSeT.csv are located in the same folder.
 2) Run:
-  python parliasent.py <model> <sentiment_label features>
+  python parliasent.py `<model>` `<sentiment_label features>`
   
 E.g., to run the two-step model with automatic motion classification, manually applied sentiment labels, and textual features, speaker party affiliation, and debate ID, enter: 
   
